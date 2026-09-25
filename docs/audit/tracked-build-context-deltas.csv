@@ -1,0 +1,4 @@
+path,added,removed,base_commit
+openwrt/include/feeds.mk,5,10,6c12b87ffc36974b3b24ebc767e8e92023351093
+openwrt/package/kernel/mt76/Makefile,1,0,6c12b87ffc36974b3b24ebc767e8e92023351093
+openwrt/target/linux/generic/config-6.18,4,2,6c12b87ffc36974b3b24ebc767e8e92023351093

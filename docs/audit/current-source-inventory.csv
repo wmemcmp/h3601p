@@ -1,0 +1,152 @@
+path,category,bytes,lines,nonblank,sha256,added,removed
+openwrt/files/etc/apk/repositories.d/customfeeds.list,runtime helpers and defaults,412,5,5,a45a8fea2004a57c09b804a089491adc2f33f722de17670395a7407011027e82,,
+openwrt/files/etc/board.d/02_network,runtime helpers and defaults,297,18,12,e197d4974a3df82f4780bf90bdf96e19f39d54556144547ff3f64040aeaad7d5,,
+openwrt/files/etc/config/firewall,runtime helpers and defaults,4279,200,178,c1b9b03d8aa0624865467fc7f38e29e0ed667c7aee658e861e98d9b67c00bae2,,
+openwrt/files/etc/config/network,runtime helpers and defaults,600,30,25,ad5ea6f2e5f00972b80b47cd0f0918d64861b23ede3730ba4070b6745a118210,,
+openwrt/files/etc/hotplug.d/ieee80211/10-wifi-detect,runtime helpers and defaults,83,3,3,080848cde649ddd3ee75917a68e5b01383ddcf2f39744ffd76420e96fb223e84,,
+openwrt/files/usr/sbin/h3601p-debug,runtime helpers and defaults,886,18,18,43b8d6a7b4c40a54d71ce4a87a51e6c66b0da9198a02c7fe439b170bf6da7aea,,
+openwrt/files/usr/sbin/h3601p-idm-status,runtime helpers and defaults,495,15,15,52fa9cfaf103f9cee697606b485fee84ee54ba605a182d0fbccf3e7853022181,,
+openwrt/files/usr/sbin/h3601p-idm-wlan-probe,runtime helpers and defaults,1890,29,29,2c5bf0289ca80ac13540d113498c47b3840f7acddd4d15eb15f7dd07114c051c,,
+openwrt/files/usr/sbin/h3601p-measure,runtime helpers and defaults,3716,41,41,e97e6d3f87e1aefbd09a7bbe20658decf43a90e3af9cbd303d47d93699bd8b1c,,
+openwrt/files/usr/sbin/h3601p-nand,runtime helpers and defaults,12175,360,338,2e2a57b25e5ebbc297d5c79a410f008059240e4b57b655b6bd017e3f5631ffa4,,
+openwrt/files/usr/sbin/h3601p-wifi-up,runtime helpers and defaults,1216,34,34,8d3d831e290ddc415d8a2404d0f1d28eb405fc8445db3a5a5b67418a40cfdd13,,
+openwrt/files/usr/sbin/h3601p-wlan-fast,runtime helpers and defaults,2834,61,61,1862afdd1252c94a0272e445111fa1584e52fc56a714b8977c3c6f66b672b2ef,,
+openwrt/h3601p.config,upstream-based build context; not original authored LOC,476,14,14,f20ee44f2163396bdf6e6ac58cd5750b79d8aa1722e3ad588bfa59540cac35e9,,
+openwrt/include/feeds.mk,upstream-based build context; not original authored LOC,2427,68,58,c362bfbbb19732d3a4c49341082667ca6269b2049bcc9da873feb9ac6059f606,,
+openwrt/package/kernel/mt76/Makefile,upstream-based build context; not original authored LOC,23457,793,703,67bd037c43f56185cd6f3c8fd72929c200c01d8f3701758ea2599fdafdb256cd,,
+openwrt/package/kernel/mt76/patches/140-mt76-h3601p-fw-irq-poll.patch,mt76 patch series,20657,731,645,9e583b25c1bb20005a820b13f72bc529fc4747d19e92cc591cc033e425b5cfd3,296,24
+openwrt/package/kernel/mt76/patches/150-h3601p-stock-pcie-l2-guard.patch,mt76 patch series,2130,86,75,70df64487fe885ad002382ab7c24415274b3c11a5123941073d86a341aba2c74,15,7
+openwrt/package/kernel/mt76/patches/160-h3601p-idm-station-lifetime.patch,mt76 patch series,1876,51,50,9bfb77ec4a9fc912cdf48fa34e7b91c7533ce0176ae4887e1f9b570afc0844cd,34,0
+openwrt/package/kernel/mt76/patches/170-h3601p-normal-tx-worker.patch,mt76 patch series,749,20,18,05b0a31ab7d8704b368e1c14a5831344eb3d550b0b80dcbcde2ad5cf0d1cbba0,10,0
+openwrt/package/kernel/mt76/patches/180-h3601p-direct-tx-stage1.patch,mt76 patch series,10045,337,329,26b9e4a70d9dbc8788e2ae7b2aee91478c4c77a1c613769b29d357f7013caa4c,280,0
+openwrt/package/kernel/mt76/patches/181-h3601p-idm-direct-tx.patch,mt76 patch series,4579,159,154,47e7afba01f15fa011f69ec01d363d10194f15bc83a9d83c7e8a08fb75e97a30,125,0
+openwrt/package/kernel/mt76/patches/182-h3601p-direct-aql-bypass.patch,mt76 patch series,1747,56,53,f4dd1c3b48c975c2edb2d3e30122a4da6ab43ba76312c0a204ce148295821621,13,5
+openwrt/package/kernel/mt76/patches/183-h3601p-direct-tx-credit.patch,mt76 patch series,2672,72,66,b747f0e6a6ce3e641f5f2bc40dce2a9935267c9f34854812f3471d0e32bd4b58,20,7
+openwrt/package/kernel/mt76/patches/184-h3601p-ordered-direct-tx.patch,mt76 patch series,5735,206,191,aea32a96729ee28b459f231b2342a92f01a9d5b03ea4091ca3d1ac27a2d329e8,101,21
+openwrt/package/kernel/mt76/patches/185-h3601p-batched-direct-tx.patch,mt76 patch series,12490,394,384,de2588396736760a0a3e621bb1b716324fb777f65c94ead88e42db5699f5da50,203,117
+openwrt/package/kernel/mt76/patches/186-h3601p-armed-work-state.patch,mt76 patch series,4798,132,127,8945a86fd387a5166d7b0c2abb696c8c12194b0d9dd1c69736e54c3ee84dad9c,47,11
+openwrt/package/kernel/mt76/patches/187-h3601p-completion-wakeup.patch,mt76 patch series,6179,166,160,71990e0413b03308056ca4c8d996f1af0618439f726a6661d9eeb7143d3d908e,55,5
+openwrt/package/kernel/mt76/patches/188-h3601p-adjustable-credit.patch,mt76 patch series,5508,134,128,59c4f986fe4994c7dd3bab767f61df037e12682f3d95a1e25911ba5934d1b6f2,47,8
+openwrt/package/kernel/mt76/patches/189-h3601p-credit-default-256.patch,mt76 patch series,993,20,19,d727e617feffe0c056584aa97b5971032b64b5c7e0f974674795091c8d22e690,2,2
+openwrt/package/kernel/mt76/patches/190-h3601p-association-safe-station-resolution.patch,mt76 patch series,648,11,11,ac47c409d9d065f2502692c526a66a4cc035fa4f0c6d22ad14a76d3dd55cc74f,1,1
+openwrt/package/kernel/mt76/patches/191-h3601p-silence-diagnostics.patch,mt76 patch series,13970,409,349,a3029c3fc8ada447cd5dd6da2d0599745391e1d706ef7b0e0b99b030aa7707b6,51,51
+openwrt/package/kernel/mt76/patches/192-h3601p-idm-napi-inline-tx.patch,mt76 patch series,5792,141,138,cc5c462eb21470df048c253ce21a894abbef56d830ad707da6dff1ce4c9cab42,73,8
+openwrt/package/kernel/mt76/patches/193-h3601p-idm-napi-txwi-batch.patch,mt76 patch series,8143,226,222,9d2475cedb4527fa4b6efcb23b2bf02f7781912e55ecdecefe615395094711ed,125,3
+openwrt/package/kernel/mt76/patches/194-h3601p-stock-hw-txp-probe.patch,mt76 patch series,4532,115,105,8f56e92ff7815620d40a72cd74907f1b63df29eccfe31e54e590399a150dcfe2,36,3
+openwrt/package/kernel/mt76/patches/195-h3601p-exact-stock-txp.patch,mt76 patch series,3528,102,94,1016ebd55086916003e92fe51ca294f6fa2434387231d02d174a3b4336c2d984,36,7
+openwrt/package/kernel/mt76/patches/196-h3601p-stock-multi-msdu-txp.patch,mt76 patch series,11122,307,298,813a84d9408f3c40c53aad41aa40d1b679bd28126cf8d7d039d7692aa3ba702b,157,5
+openwrt/package/kernel/mt76/patches/197-h3601p-stock-dual-txp.patch,mt76 patch series,8248,190,185,d0a9902b8aab160f718b1e5603f88e3f389b7fddd892bafb849c1e3fdf1bb7dc,59,14
+openwrt/package/kernel/mt76/patches/198-h3601p-stock-txp-length-marker.patch,mt76 patch series,2222,48,48,47c59e93a6ca41ae3551308fbe32972fe3a08bd33d825bc1402b2cc65b3d430e,9,6
+openwrt/package/kernel/mt76/patches/199-h3601p-reject-host-txp.patch,mt76 patch series,2141,51,50,418cc9adc626acaf777bbb38a2b174743a7a07587b3023ac35107ee1fc8f32c6,27,4
+openwrt/package/kernel/mt76/patches/200-h3601p-bounded-worker-context.patch,mt76 patch series,2310,61,60,77853178bd21d2b8be576c51acfa96942239c732d656737890cdb64506a0c8c5,17,11
+openwrt/package/kernel/mt76/patches/201-h3601p-uncached-payload-pool.patch,mt76 patch series,2772,84,78,dcf86c5472a82d9636d51a9151cde421d8b609f1f40074cfc9948298200901a8,19,6
+openwrt/package/kernel/mt76/patches/202-h3601p-worker-doorbell-batch.patch,mt76 patch series,4531,94,94,392c14b1c9515338baa4f8d925243c4449680e71b14333391a24f7ce4008ee6a,27,12
+openwrt/package/kernel/mt76/patches/203-h3601p-credit-qlen-txwi.patch,mt76 patch series,4714,149,140,4d669e4d9d85d94a7633b035c5966ec2bdb228a58997bdf298944bba4a62a719,68,10
+openwrt/package/kernel/mt76/patches/204-h3601p-r237-lean-completion.patch,mt76 patch series,10028,288,274,26e0548c75b4627e33d8042e97ad0d65cbcc53c7d1983ba86935f37d990b04ca,127,19
+openwrt/package/kernel/mt76/patches/205-h3601p-r238-napi-placement-lean-txsched.patch,mt76 patch series,7624,207,196,e90c68292e3516020adc7b3f4ce30e14ca3e7ff9c3e8b8c8d86707e6bbd80738,107,7
+openwrt/target/linux/generic/config-6.18,upstream-based build context; not original authored LOC,282642,8269,8268,f2b00c17458f5344f8a6b853bc23d2d489c2f326ba8cba4118cd7f6bf916b294,,
+openwrt/target/linux/zte/Makefile,target overlay,779,33,25,65a83588937112d552e4031056c011934637c4d11b3dc00b5204c4888e99b896,,
+openwrt/target/linux/zte/base-files/etc/apk/repositories,target overlay,412,5,5,a45a8fea2004a57c09b804a089491adc2f33f722de17670395a7407011027e82,,
+openwrt/target/linux/zte/base-files/etc/apk/repositories.d/distfeeds.list,target overlay,412,5,5,a45a8fea2004a57c09b804a089491adc2f33f722de17670395a7407011027e82,,
+openwrt/target/linux/zte/base-files/etc/board.d/02_network,target overlay,297,18,12,e197d4974a3df82f4780bf90bdf96e19f39d54556144547ff3f64040aeaad7d5,,
+openwrt/target/linux/zte/base-files/etc/config/network,target overlay,638,32,27,ff7c1d2e5888b2292f1a3c677e27200d38caeaafeb2bf4e3c81a28dbe98efcb7,,
+openwrt/target/linux/zte/base-files/etc/config/wireless,target overlay,893,37,34,e7d8a6c926f7d2adeabd03dd1f013ce16d087db7b49bc5127e43afb0aedc2c27,,
+openwrt/target/linux/zte/base-files/etc/hotplug.d/net/00-rps,target overlay,183,6,5,3b509d4f22dc71aa42a6017a5c8ac248d698631facd974200363f0ba1815f8ba,,
+openwrt/target/linux/zte/base-files/etc/rc.local,target overlay,1236,27,22,b8a296870f1c998868b051740c1000d90af929577f856d1a1dbc6d6369b78e12,,
+openwrt/target/linux/zte/base-files/etc/sysctl.d/90-h3601p-console.conf,target overlay,174,3,3,3be4b6be6cd685c62f14bfdceaec44301820afbf7455f48dae87f0d766fcb9d5,,
+openwrt/target/linux/zte/base-files/etc/sysctl.d/99-network.conf,target overlay,729,20,20,312f691a5470f222445a789851e5af7efe652f04524cd7622329a5a75d904cfa,,
+openwrt/target/linux/zte/base-files/etc/uci-defaults/99_network_tuning,target overlay,3843,96,84,b7d0c60b171d7b68c690d248ab23de7a2c6fc1a067281d9ecc9fbd993bd6addb,,
+openwrt/target/linux/zte/base-files/lib/preinit/68_h3601p_caldata,target overlay,1227,33,30,737662603f5fb978c67ecacccfdf155bf801beed7ecdc5f65c04d169e2992672,,
+openwrt/target/linux/zte/base-files/lib/upgrade/platform.sh,target overlay,283,11,9,174dc1e8e7023bb34450e2ff0ba7cfc1c8c6df36d0374f7f24c981e1abcb915a,,
+openwrt/target/linux/zte/base-files/usr/sbin/h3601p-wlan-tx-stage,target overlay,920,44,35,d761ff5451a23d3f17c4c5dd150f1d4e797e8e3537703e767a50ca08f4246efd,,
+openwrt/target/linux/zte/config-6.18,target overlay,14117,523,511,332ca7973a326075f15e10693cea45fd155dcb004804342773568358496152c5,,
+openwrt/target/linux/zte/dts/zx279128s-h3601p.dts,target overlay,10002,400,355,32bdf30c920a52affadcbdcb9055e274432551de94dab45ca466962272232b94,,
+openwrt/target/linux/zte/files-6.18/arch/arm/boot/dts/zte/Makefile,target overlay,87,2,2,3fc202488965c86f946dbf14b11254c4ada05dfe48362ec3561f41ed61d9d8be,,
+openwrt/target/linux/zte/files-6.18/arch/arm/boot/dts/zte/zx279128s-h3601p.dts,target overlay,7576,298,266,465d6db6ae2d36d8c343a517cc8e45af95d942a396029f356c42418a468d29c3,,
+openwrt/target/linux/zte/files-6.18/arch/arm/include/asm/zx279128-pcie.h,target overlay,184,6,6,272819ad78e3332cc682eaa561adddade106bd7657e7a0e03bea5596d0b5147e,,
+openwrt/target/linux/zte/files-6.18/arch/arm/mach-zte/Kconfig,target overlay,470,14,14,cdcda819cb1318e346482d3be345239fba6dc903d931fdf548212b1e44c7fc92,,
+openwrt/target/linux/zte/files-6.18/arch/arm/mach-zte/Makefile,target overlay,81,2,2,ef2fa22e420a158cddd323294461fc5d33740e9db774842201335db555085640,,
+openwrt/target/linux/zte/files-6.18/arch/arm/mach-zte/headsmp.S,target overlay,966,38,36,433d46e65b68fe4770359cca9fd4d56885f7bda03cb2a365b044b56b3c537251,,
+openwrt/target/linux/zte/files-6.18/arch/arm/mach-zte/platsmp.c,target overlay,3311,139,115,1ce7101ba702f30592c6a64dad55d632b03154393d95097c67ca284a2580a3a0,,
+openwrt/target/linux/zte/files-6.18/drivers/net/ethernet/zte/Kconfig,target overlay,464,19,15,4b1c7354cb7cfcac9914a98ae2b521d0b7e4cbe839d5936131fa4aab54746d02,,
+openwrt/target/linux/zte/files-6.18/drivers/net/ethernet/zte/Makefile,target overlay,398,9,7,34052dcf4f9a27cfd705b4a9a64a0df48c25f629bbf4f9593a0cb5b1f0bf3b6f,,
+openwrt/target/linux/zte/files-6.18/drivers/net/ethernet/zte/zx279128s-bufpool.c,target overlay,5885,235,213,a8942f5cfe1c344de979e9d3c9c60ee0461d6d29e5c0a5b1334c50c78c5b5109,,
+openwrt/target/linux/zte/files-6.18/drivers/net/ethernet/zte/zx279128s-bufpool.h,target overlay,539,19,15,036a14c61767274fdf2ec3f13d419d4fc513b9df579d3cde33e78206805cdf1b,,
+openwrt/target/linux/zte/files-6.18/drivers/net/ethernet/zte/zx279128s-idm-hw.c,target overlay,50189,1450,1395,efe8acec8936936e29dd9da6c47ff25a2fc3e646e5f172990a60047fe2ccacc1,,
+openwrt/target/linux/zte/files-6.18/drivers/net/ethernet/zte/zx279128s-idm-wlan.c,target overlay,6145,222,204,079435ddc8d4667b56c332f243fa680197952fed669901baa9cd2946f3ed8455,,
+openwrt/target/linux/zte/files-6.18/drivers/net/ethernet/zte/zx279128s-idm.c,target overlay,6076,235,216,835c6dc0763582ad800a0f355b6057c5f7933ca592765d40a49406e6b03110ff,,
+openwrt/target/linux/zte/files-6.18/drivers/net/ethernet/zte/zx279128s-idm.h,target overlay,2325,64,58,ef8fe761bbd62ec015af1d4b6fe9ad3d427a64b32007d8b4640028ac7648ee50,,
+openwrt/target/linux/zte/files-6.18/drivers/net/ethernet/zte/zx279128s-l3offload.c,target overlay,105433,3016,2714,e4a84d193ab00158017162acad847feed57d0b3e9d0bcf68d004944331b90113,,
+openwrt/target/linux/zte/files-6.18/drivers/net/ethernet/zte/zx279128s-l3offload.h,target overlay,3581,121,105,ffade348c3f8c1df08a93e65b6dd22fc70fee564f2aea7d18589527af1f32c34,,
+openwrt/target/linux/zte/files-6.18/drivers/net/ethernet/zte/zx279128s-tm.c,target overlay,126816,4128,3642,737f35578a63fea3100e2e3228e076ff22fb6581b1a0e60b334ba1a84000df05,,
+openwrt/target/linux/zte/files-6.18/drivers/net/ethernet/zte/zx279128s-tm.h,target overlay,2942,112,102,e3b1bece8d7ea7dbf7fdc63a104de0695dadd8b19c4838e93afd4f8656860b2c,,
+openwrt/target/linux/zte/files-6.18/drivers/net/ethernet/zte/zx279128s-wlan-fast.c,target overlay,49728,1345,1288,4f08c5bdcd2079cb3a34f592666de063dfcc9cc11ed6de6de52c6f9bf5536755,,
+openwrt/target/linux/zte/files-6.18/drivers/net/ethernet/zte/zx279128s-wlan-fast.h,target overlay,1213,28,28,c147c7ab0dc5954db443a5efc433c80e2c265b263d31c9fead4d51eaab7e2213,,
+openwrt/target/linux/zte/files-6.18/drivers/net/ethernet/zte/zx279128s-wlan-flow.c,target overlay,5125,147,139,99feed26298cdfb1346451d4897b3040f40426c6fcc6531a116eeda6f2d9d49d,,
+openwrt/target/linux/zte/files-6.18/drivers/net/ethernet/zte/zx279128s-wlan-flow.h,target overlay,1171,31,30,9d2c174f079c47abe83f607e18a0b11dc7975f6a877c8b85b4636d343f18fe57,,
+openwrt/target/linux/zte/files-6.18/drivers/net/mdio/mdio-zx279128s.c,target overlay,4814,175,142,e07c5101c3bf42c2d3424a73b18c9ebebb78f1fa9c9b60d00f6688d6273a72b5,,
+openwrt/target/linux/zte/files-6.18/drivers/pci/controller/dwc/pcie-zx279128s.c,target overlay,7967,303,258,1d0466b58222c767bff1c3efc959355ab5c7fb718c3d5fbc2e3933723a8f2713,,
+openwrt/target/linux/zte/files-6.18/drivers/spi/spi-zx279128s-sfc.c,target overlay,15940,540,487,78d01333953a30cb50d9a7beb6e5ac824d27e51a69572fffe48f9f17ecefe906,,
+openwrt/target/linux/zte/files-6.18/include/linux/zx-idm-wlan.h,target overlay,1578,35,31,ce5122241da15a6deb3fdd67b6a240d01d69be0a8fa808c47ce4c4f50138b79a,,
+openwrt/target/linux/zte/image/Makefile,target overlay,896,30,26,a8cb12534bf0e3d1aa8b7a0eedcfd98a8290aa410254490b9aebdb17cc2c13a3,,
+openwrt/target/linux/zte/patches-6.18/100-arm-mach-zte.patch,target overlay,561,21,18,c2abcfa5d91dcae3057ce3570ae4490d7626a3ae5e5e61b9215ebf6998c70478,3,0
+openwrt/target/linux/zte/patches-6.18/110-net-zte-zx279128s-tm.patch,target overlay,683,19,18,7d2f0e677e924f8f2eff13d97864f153312a214f9cc8e251cfe9e6044a701355,2,0
+openwrt/target/linux/zte/patches-6.18/120-mdio-zx279128s.patch,target overlay,903,26,25,5a454151cad60ef5a4d523d4e9cc5b2fcfe0493176f1d83752c0e6cfdd5e1ead,8,0
+openwrt/target/linux/zte/patches-6.18/130-pcie-zx279128s.patch,target overlay,986,28,27,a3fa7a0e565c6ef6b2446f0b49245193a5fa4f1c7892e40a0c42a56c71a758c8,10,0
+openwrt/target/linux/zte/patches-6.18/140-serial-pl011-zteuart.patch,target overlay,3758,140,131,64fbb5914b16a0868ad1d01b045363441d4beb62b5e0dc1340b3db24eb68f495,85,0
+openwrt/target/linux/zte/patches-6.18/150-bridge-fdb-rcu.patch,target overlay,1779,62,60,cbb03eda415cc11777440ef3b3a648f2cc5d3ad2596f28da3a0dd10ae7de6a17,37,0
+openwrt/target/linux/zte/patches-6.18/160-pcie-l2-stock-serialization.patch,target overlay,2726,102,98,b8e3155ce15c4ed94e0ac90273b77e90660b6ebd9a99074f7bb4dd87d1e8047e,65,0
+openwrt/target/linux/zte/patches-6.18/161-pcie-l2-stock-sync-boundaries.patch,target overlay,2140,69,62,c13e85d75fa2e3a0dd879e0981ebccea1e1bd411d95bf36f6834e0adb49d2edc,28,4
+openwrt/target/linux/zte/patches-6.18/170-spi-zx279128s-sfc.patch,target overlay,1133,29,28,8749ab62c2e680cadba686b5ece2622bbaff4aa1ee1baa864b1633951939cfef,11,0
+openwrt/target/linux/zte/zx279128s/target.mk,target overlay,344,11,9,829813cac4c6e68a49abefd9dde772bfbbfa16ac0bb9311dfb927eb786199b1d,,
+out/cspboot-analysis/prepare_nand_r240.py,CSPBOOT validation tools,10651,212,185,05973e5c5d5832a2fdf304ba1bcdafd10edbb1ff5a9179ef556cbd396d8e558d,,
+out/cspboot-analysis/verify_cspboot.py,CSPBOOT validation tools,13031,292,247,095dc0a6b5bc65bf093bffec46fa092fb622464c0076cc8e4e16c40be8019b71,,
+out/cspboot-analysis/verify_nand_bundle.py,CSPBOOT validation tools,7698,128,117,4b64f4e070360c25192c73b2cda40253ee98a39485f1c0c8d2b2ea8858d7230f,,
+out/r240-concat/69_h3601p_overlay,concat and JFFS2 implementation/tests,666,20,20,1700753c959a66054ac18f255bf0821e68c04588df73df035b4ceb15e0cb7a40,,
+out/r240-concat/build_images.py,concat and JFFS2 implementation/tests,4247,71,68,ae5d7ed864f81906b028befaedcb3778c847585ceda196736cfb185a6aa65077,,
+out/r240-concat/check_storage_headers.py,concat and JFFS2 implementation/tests,3405,58,57,a156169b3f8ad287eb6cf604735b5d9e34475b4ca0b41c421287c52ef0715b00,,
+out/r240-concat/concat.dts,concat and JFFS2 implementation/tests,7680,345,297,5cd289a3587c792ee23db0a63712d36f4eabf1011461cdfc232119d90fe39831,,
+out/r240-concat/h3601p-concat-fence.h,concat and JFFS2 implementation/tests,470,11,11,58275ebf87e1f657e83ea7609fa479fdc639133c9fd37bce195b9395183a61ac,,
+out/r240-concat/h3601p-concat.sh,concat and JFFS2 implementation/tests,3397,90,90,4053121e102fd0d5155084d45053ba3e4cdfe13fc778daa845a8acd2e315f70f,,
+out/r240-concat/h3601p-inband.sh,concat and JFFS2 implementation/tests,3140,87,87,2d28f45c749225ef8bc514e4d7f1e5113216119f1b0053874fa6cb22d8e2e9ba,,
+out/r240-concat/h3601p-jffs2.sh,concat and JFFS2 implementation/tests,3106,87,87,e397e57cbb7652ac4afdccb7193426607f9687b8c608af7e44583e418c7ea5aa,,
+out/r240-concat/h3601p-ubi-check.c,concat and JFFS2 implementation/tests,1348,35,34,43fe76aad63a0d6a9f9d98963dbe00e71d4eb7847edaeaabcfd74a421abcc8f9,,
+out/r240-concat/h3601p-xattrs.c,concat and JFFS2 implementation/tests,4825,118,117,9b055ce4d0d0f13d7bd12c7c41eface2864dc67992bea0334ee27e9c9cabdc21,,
+out/r240-concat/inband-qemu-build_init.py,concat and JFFS2 implementation/tests,2441,57,57,822c9f44f855191f534ee883ee09e2232f784b19c7fe71700a55a70fafb17fee,,
+out/r240-concat/jffs2-inband-cleanmarkers.patch,concat and JFFS2 implementation/tests,6175,194,173,6c594321ff984275de3b67efc82e74cc07ab77664cd997a444eb545321e2efd9,44,16
+out/r240-concat/migrate-inband.sh,concat and JFFS2 implementation/tests,3920,68,68,0adc96f20e8d5695ca8224504251a519619fe643ea62f774bb9c0a6017f28a56,,
+out/r240-concat/migrate-jffs2.sh,concat and JFFS2 implementation/tests,3858,68,68,5df6ac9868dafca5dd2d5588f94235a3b87ac0c716f63497e5fbe5e548a14162,,
+out/r240-concat/original.dts,concat and JFFS2 implementation/tests,7573,336,292,478bf4b36e2510bc79e9055bcb1890b6e62d3b13adcd3070856fc9d977feb73e,,
+out/r240-concat/package_inband.py,concat and JFFS2 implementation/tests,7665,105,105,c5122f8e1616175b31a1556e86e1fc8f03543cbde5a142c5db12b5b5b9d64583,,
+out/r240-concat/package_jffs2.py,concat and JFFS2 implementation/tests,7951,111,111,19b5e28b5f3f25b7a26b8c59754be6eeaa13fec5be29e72baaaedf28a67f975f,,
+out/r240-concat/package_verify.py,concat and JFFS2 implementation/tests,7647,109,109,b894a2569b757b720aaea35e783e4dff3dc7b8b8230e086a3f2842bfa973c09b,,
+out/r240-concat/patch_inband.py,concat and JFFS2 implementation/tests,4628,78,73,4ce4bde18808704391c210bc5956fafa7518546bcc0bc66dfd33cb57a5235f35,,
+out/r240-concat/setup_build.py,concat and JFFS2 implementation/tests,4890,75,72,c541623ca76fe08f593dccd1ff8b49c64a7efbaa562e733a44deeaee2a91c3fc,,
+out/r240-concat/spi-zx279128s-sfc.c,concat and JFFS2 implementation/tests,16216,547,492,857dfc8bdf21fbe5b33b695fbefee018d7f9323b0584bf32391103c48cacf143,,
+out/r240-concat/test_boot.py,concat and JFFS2 implementation/tests,4553,110,110,110ad43a651b93cd0e067687f5a947f534200c28c2f62f1bf87088a3f21af142,,
+out/r240-concat/test_helpers.py,concat and JFFS2 implementation/tests,3468,62,62,a7ef8a0591367ea0e419591d8e637bbc1ccf6666737c7c7e7709d33ec520142c,,
+out/r240-concat/test_inband_boot.py,concat and JFFS2 implementation/tests,4985,116,116,8572b155796f921cf413570ce7e975db39ae316c134f5801a122e41aadf99906,,
+out/r240-concat/test_inband_migration.py,concat and JFFS2 implementation/tests,3729,74,74,a15be3279aa5bf1d4fc9e81ecbbd9bb61e36f65d5bc4819a40317481ee391e06,,
+out/r240-concat/test_jffs2_boot.py,concat and JFFS2 implementation/tests,4956,116,116,3beab44e529935b6be5837510b594bf46548af47e198876b59637d21e1fa996b,,
+out/r240-concat/test_migration.py,concat and JFFS2 implementation/tests,3674,74,74,bfeb1ddcb2359e49a5af492cc1ee67f1a9a21cb423556e0bb98daeea592b73f0,,
+out/r241-normal/80_mount_root,normal firmware implementation,902,28,28,1435a1a1d07c4b42737721ea3bb4475ee7f7cb73d04e20daf29e1179c0b3d49f,,
+out/r241-normal/base.dts,normal firmware implementation,7680,345,297,5cd289a3587c792ee23db0a63712d36f4eabf1011461cdfc232119d90fe39831,,
+out/r241-normal/build_rootfs.py,normal firmware implementation,6093,99,97,3d852ee684eb2a78dc1e1e667b47a155373b6ba7d9ec91c9e583b32afa4e38a0,,
+out/r241-normal/h3601p-flash.c,normal firmware implementation,6315,29,29,1cb7f3d1428c3e8dafc95c44acbfd656ca41484209d4fcc7ab9897c97b0b75fd,,
+out/r241-normal/h3601p-normal-overlay.sh,normal firmware implementation,3552,95,95,033ea5c8d52260fbac9bc461ea312d6c9fe280209ea081a0fc202495c60cb733,,
+out/r241-normal/h3601p-upgrade.sh,normal firmware implementation,5981,136,136,e24a6e7ad8a9733294ab9eb1c3f6896946a62d9a08899b4395bd6ab21bcf3b0e,,
+out/r241-normal/h3601p-write-fence.h,normal firmware implementation,786,16,16,b43a99db13e74ec75c88fe1cf5d4e126253bb7d261c53fc532a48a908c43f1a3,,
+out/r241-normal/install-bridge.sh,normal firmware implementation,1422,26,26,0ec77eecbf7ac84b90e5e871a47d0ebee464580053b786c485035a77bf50d8e4,,
+out/r241-normal/jffs2reset,normal firmware implementation,657,20,20,00d78711c64217801a2183de10717378320c238d1843fe9e1f6ad61bf1f45ef9,,
+out/r241-normal/layout-module/Makefile,normal firmware implementation,33,1,1,4637876c12d135cc810e26ab3843ce584327a748081dd518e9ad528f963d1e1e,,
+out/r241-normal/layout-module/h3601p-upgrade-layout.c,normal firmware implementation,1784,52,52,201c4fa755e3fbcdabaac897f71ef0f3965b70dac57b0bec911707142eaab838,,
+out/r241-normal/normal.dts,normal firmware implementation,8094,350,301,3a399de54546db25f42e6f5b50935326ac75abec7ea69aeac6601ae8752263bd,,
+out/r241-normal/openwrt-normal-packages.config,normal package configuration; generated Kconfig selections,151068,3898,3779,39f716dce07db2c2155bc526d9f19db5651fc76ed6f181c9acfec1d73f025529,,
+out/r241-normal/package_image.py,normal firmware implementation,4748,70,68,e8c04d6051941760be29402789efa5d2187b6fd58319fa2f95ab4e10e54bab12,,
+out/r241-normal/platform.sh,normal firmware implementation,767,18,16,0287dda9ecd897e82ba418a4532e2e7027c84ecd05ddc0cd335c92fe961500a9,,
+out/r241-normal/prepare_kernel.py,normal firmware implementation,5055,94,90,43ad93328da6df469bdb913610007f576915e22c2f2b48fc4727405da1c7ff48,,
+out/r241-normal/rebuild.sh,normal firmware implementation,1138,24,24,d0166093116acb0735688ff7c236e6dfb48d7035e9c6bbafc91d91bf5ee7ac92,,
+out/r241-normal/spi-zx279128s-sfc.c,normal firmware implementation,16570,555,499,f433855fe529df3b757b04c9d0c6a1b8676bb7027a4881d233d98baa573a351d,,
+out/r241-normal/test-fence.c,normal firmware implementation,502,3,3,5dd0b645f8f973c60d5a10deeea407d316a5c56419b398b76f1c4a3c5a94b922,,
+out/r241-normal/test_cspboot.py,normal firmware implementation,2238,25,25,5de7e0c54d0435a79877e2f7c7a69dcfc8e6f6c29913987f4e9496884ec02f67,,
+out/r241-normal/test_host.py,normal firmware implementation,5911,66,66,10579b88969d1ba28606288dca916a3d762ff181ad6339ab1c3af27fd3e51a98,,

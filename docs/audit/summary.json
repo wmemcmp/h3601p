@@ -1,0 +1,112 @@
+{
+  "method": "physical splitlines, comments/blanks included; patch +/- separately; not an authorship metric",
+  "markdown_files": 165,
+  "markdown_bytes": 859968,
+  "markdown_unique_content": 163,
+  "project_markdown_files": 154,
+  "current_groups": {
+    "runtime helpers and defaults": {
+      "files": 12,
+      "lines": 814,
+      "nonblank": 759,
+      "bytes": 28883,
+      "added": 0,
+      "removed": 0
+    },
+    "upstream-based build context; not original authored LOC": {
+      "files": 4,
+      "lines": 9144,
+      "nonblank": 9043,
+      "bytes": 309002,
+      "added": 0,
+      "removed": 0
+    },
+    "mt76 patch series": {
+      "files": 30,
+      "lines": 5047,
+      "nonblank": 4741,
+      "bytes": 172483,
+      "added": 2187,
+      "removed": 374
+    },
+    "target overlay": {
+      "files": 54,
+      "lines": 14563,
+      "nonblank": 13214,
+      "bytes": 463058,
+      "added": 249,
+      "removed": 4
+    },
+    "CSPBOOT validation tools": {
+      "files": 3,
+      "lines": 632,
+      "nonblank": 549,
+      "bytes": 31380,
+      "added": 0,
+      "removed": 0
+    },
+    "concat and JFFS2 implementation/tests": {
+      "files": 27,
+      "lines": 3222,
+      "nonblank": 3040,
+      "bytes": 130613,
+      "added": 44,
+      "removed": 16
+    },
+    "normal firmware implementation": {
+      "files": 20,
+      "lines": 2052,
+      "nonblank": 1889,
+      "bytes": 80228,
+      "added": 0,
+      "removed": 0
+    },
+    "normal package configuration; generated Kconfig selections": {
+      "files": 1,
+      "lines": 3898,
+      "nonblank": 3779,
+      "bytes": 151068,
+      "added": 0,
+      "removed": 0
+    }
+  },
+  "current_files": 151,
+  "archive_files": 1310,
+  "identical_current_files": [
+    [
+      "openwrt/files/etc/apk/repositories.d/customfeeds.list",
+      "openwrt/target/linux/zte/base-files/etc/apk/repositories",
+      "openwrt/target/linux/zte/base-files/etc/apk/repositories.d/distfeeds.list"
+    ],
+    [
+      "openwrt/files/etc/board.d/02_network",
+      "openwrt/target/linux/zte/base-files/etc/board.d/02_network"
+    ],
+    [
+      "out/r240-concat/concat.dts",
+      "out/r241-normal/base.dts"
+    ]
+  ],
+  "excluded_tree_names": [
+    ".git",
+    ".pc",
+    "__pycache__",
+    "audit",
+    "build",
+    "build_dir",
+    "decompiled",
+    "dl",
+    "e2631-linux",
+    "feeds",
+    "ghidra_projects",
+    "ida_analysis",
+    "iperf-build",
+    "root",
+    "rootfs",
+    "rootfs_extracted",
+    "staging_dir",
+    "stock",
+    "tmp"
+  ],
+  "tracked_build_context_diff_base": "6c12b87ffc36974b3b24ebc767e8e92023351093"
+}
