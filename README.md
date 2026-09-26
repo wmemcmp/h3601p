@@ -12,7 +12,7 @@
 [![Storage](https://img.shields.io/badge/Overlay-167_MiB-7c3aed?style=flat-square)](#nand-layout)
 [![Wi-Fi](https://img.shields.io/badge/Wi--Fi_6-MT7916-0f766e?style=flat-square)](#wireless)
 
-**[GitHub: wmemcmp/h3601p](https://github.com/wmemcmp/h3601p) · [Telegram: @thereisnourflevel](https://t.me/thereisnourflevel)**
+**[GitHub: wmemcmp/h3601p](https://github.com/wmemcmp/h3601p) · [Telegram: @wmemset](https://t.me/wmemset)**
 
 [Hardware](#hardware) · [Installation](#installation) · [Technical reference](#architecture) · [Report an issue](https://github.com/wmemcmp/h3601p/issues)
 
